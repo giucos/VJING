@@ -19,7 +19,7 @@ function draw() {
         rotateY(angle * speed);
         angle += 0.001;
         noFill();
-        stroke(255, 100, 150, random(0, 255));
+        stroke(255);
         strokeWeight(random(0.1, 0.5));
         sphere(40);
         pop();

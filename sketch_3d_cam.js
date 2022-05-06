@@ -3,6 +3,7 @@ let speed = 0.1;
 
 let cam;
 let deltaZ = -5;
+let deltaX = -2;
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
@@ -15,9 +16,10 @@ function draw() {
   // move the camera along its local axes
   cam.move(0, 0, deltaZ);
 
-  // every 100 frames, switch direction
+  // every x frames, switch direction
   if (frameCount % 220 === 0) {
     deltaZ *= -1;
+    deltaX *= -1;
   }
 
   translate(-width / 2 + 100, -height / 2 + 100, 0);
@@ -33,7 +35,7 @@ function draw() {
         noFill();
         stroke(255, 100, 150, random(0,225));
         strokeWeight(0.2);
-        sphere(40);
+        torus(40);
         pop();
       }
     }
