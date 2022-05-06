@@ -1,5 +1,5 @@
 let angle = 0;
-let speed = 0.001;
+let speed = 0.1;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);

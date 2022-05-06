@@ -8,6 +8,7 @@ function draw() {
 		for (let y = 50; y <= windowHeight + 200; y += 100) {
 			if (frameCount % 25 == 0) {
 				fill(random(100,255));
+				noStroke();
 				push();
 				//rotate(radians(frameCount));
 				rect(x, y, 300, 30);

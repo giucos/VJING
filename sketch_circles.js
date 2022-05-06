@@ -2,7 +2,7 @@ var circle = [];
 var space;
 
 function setup(){
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   background(color(18, 6, 16));
 
   circles = [];
