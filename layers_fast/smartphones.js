@@ -33,8 +33,7 @@ function draw() {
         rotateX(angle1 * speed);
         rotateY(angle1 * speed);
         angle1 += 0.1;
-        fill(0, 0, 0, 0);
-        // noStroke();
+        noFill();
         strokeWeight(1);
         stroke(farbR, farbG, farbB);
         box(5, 60, 30);

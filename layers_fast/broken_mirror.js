@@ -40,7 +40,6 @@ function draw() {
         angle1 += 0.1;
         fill(farbR, farbG, farbB,);
         strokeWeight(6);
-        // stroke(farbR, farbG, farbB);
         stroke(0);
         noStroke();
         torus(10, 100);
@@ -55,7 +54,6 @@ function draw() {
         noStroke();
         box(5, 60, 30);
         pop();
-        // console.log(frameCount);
       }
 
     }

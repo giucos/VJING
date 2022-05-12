@@ -18,7 +18,7 @@ function draw() {
   translate(-width / 2 + 30, -height / 2 + 30, 500);
   for (let x = 50; x <= windowWidth; x = x + 100) {
     farbR = tan(winkel) * 125 + 125;
-    farbG = cos(winkel) * 125 + 125;
+    farbG = tan(winkel) * 125 + 125;
     farbB = tan(winkel) * 125 + 125;
     winkel++;
     for (let y = 50; y <= windowHeight; y = y + 100) {
@@ -31,8 +31,6 @@ function draw() {
         angle1 += 0.1;
         fill(farbR, farbG, farbB);
         noStroke();
-        strokeWeight(3);
-        // stroke();
         sphere(30);
         pop();
       }

@@ -18,7 +18,7 @@ function draw() {
   translate(-width / 2 + 30, -height / 2 + 30, 500);
   for (let x = 50; x <= windowWidth; x = x + 100) {
     farbR = tan(winkel) * 125 + 125;
-    farbG = cos(winkel) * 125 + 125;
+    farbG = tan(winkel) * 125 + 125;
     farbB = tan(winkel) * 125 + 125;
     winkel += 2;
     for (let y = 50; y <= windowHeight; y = y + random(50, 150)) {

@@ -18,8 +18,8 @@ function draw() {
   translate(-width / 2 + 30, -height / 2 + 30, 500);
   for (let x = 50; x <= windowWidth; x = x + 100) {
     farbR = tan(winkel) * 125 + 125;
-    farbG = sin(winkel) * 125 + 125;
-    farbB = cos(winkel) * 125 + 125;
+    farbG = tan(winkel) * 125 + 125;
+    farbB = tan(winkel) * 125 + 125;
     winkel++;
     for (let y = 50; y <= windowHeight; y = y + random(50, 250)) {
       for (let z = 50; z >= -1000; z = z - 100) {
@@ -30,9 +30,8 @@ function draw() {
         rotateY(angle1 * speed);
         angle1 += 0.1;
         fill(farbR, farbG, farbB);
-        noStroke();
-        strokeWeight(3);
-        // stroke();
+        stroke(0);
+        strokeWeight(random(0,5));
         box();
         pop();
       }

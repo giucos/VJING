@@ -19,12 +19,9 @@ function draw() {
         rotateY(angle1 * speed * z);
         angle1 += 0.1;
         fill(255);
-        //noStroke();
         box();
         pop();
       }
     }
   }
 }
-
-      //fill(random(0,255),random(0,255),random(0,255));
