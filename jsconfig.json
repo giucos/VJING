@@ -3,5 +3,5 @@
     "*.js",
     "libraries/*.js",
     "c:\\Users\\gcost\\.vscode\\extensions\\samplavigne.p5-vscode-1.2.8\\p5types\\global.d.ts"
-  ]
+, "layers_slow/3d_spheres_02.js"  ]
 }

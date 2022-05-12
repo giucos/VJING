@@ -15,7 +15,7 @@ function draw() {
 	glitch.resetBytes();
 
 	glitch.replaceBytes(100, 104); // swap all decimal byte 100 for 104
-	glitch.randomBytes(1); // add one random byte for movement
+	glitch.randomBytes(20); // add one random byte for movement
 
 	glitch.buildImage();
 	image(glitch.image, width / 2, height / 2)
