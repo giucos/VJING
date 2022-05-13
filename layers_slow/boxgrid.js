@@ -3,7 +3,7 @@ let speed = 0.000001;
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-}
+  }
 
 function draw() {
   background(0);

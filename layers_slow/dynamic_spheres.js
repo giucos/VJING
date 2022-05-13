@@ -1,5 +1,5 @@
 let angle1 = 0;
-let speed = 0.0001;
+let speed = 0.001;
 let camera;
 let winkel = 0;
 let farb;
