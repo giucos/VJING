@@ -1,5 +1,5 @@
 let angle1 = 0;
-let speed = 0.5;
+let speed = 0.1;
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
